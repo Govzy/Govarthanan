@@ -7,35 +7,52 @@
     <style>
         body {
             background-color: #f0f0f0;
-            color: grey;
+            color: black;
         }
 
         #topContent {
-            position: fixed;
+            /*position: fixed;
             left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%)
+            top: 30%%;
+            transform: translate(-50%, -30%)*/
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            width: 720px;
         }
 
         #name {
             font-size: 30px;
             word-spacing: normal;
+            font-family: fantasy;
         }
 
         #navigationContent {
             margin-left: 75px;
             font-size: 18px;
             word-spacing: 25px;
+            font-family: sans-serif;
         }
 
         #jobTitle {
-            font-size: 18px
+            font-size: 18px;
+            font-family: fantasy;
+        }
+
+        #profilePic {
+            border-radius: 50%;
+        }
+
+        .imageContainer {
+            width: 800px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <div id="topContent">
+        <div class="imageContainer"><img src="profile.jpg" id="profilePic" width="320px" /></div>
         <div id="name">Govarthanan Ravi<span id="navigationContent">HOME RESUME PROJECTS CONTACT</span></div>
         <div id="jobTitle">Android Developer</div>
     </div>

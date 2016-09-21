@@ -4,42 +4,27 @@
 <head>
     <meta charset="utf-8">
     <title>Govarthanan Ravi</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            color: grey;
-        }
-
-        #topContent {
-            position: fixed;
-            left: 50%;
-            margin-top: 150px;
-            transform: translate(-50%)
-        }
-
-        #name {
-            font-size: 30px;
-            word-spacing: normal;
-        }
-
-        #navigationContent {
-            margin-left: 75px;
-            font-size: 18px;
-            word-spacing: 25px;
-        }
-
-        #jobTitle {
-            font-size: 18px
-        }
-    </style>
+    <link rel="stylesheet" href="indexStyle.css">
 </head>
 
 <body>
-    <div id="topContent">
-        <div id="name">Govarthanan Ravi<span id="navigationContent">HOME RESUME PROJECTS CONTACT</span></div>
-        <div id="jobTitle">Android Developer</div>
+    <div class="topContainer">
+        <div id="name">Govarthanan Ravi
+            <span id="pageNavigation">HOME RESUME TRAVEL CONTACT</span>
+            <div id="jobTitle">Android Developer</div>
+            <div class="imageContainer"> <img src="profile.jpg" id="profilePic" width="320px" /></div>
+        </div>
     </div>
+    <div class="bottomContainer">
+        <div class="contactInfo">
+            <img src="linkedin.png" width="48px" />
 
+            <a href="https://www.facebook.com/govarthanan.m.r"><img src="facebook.png" width="48px" /></a>
+            <a href="https://twitter.com/GovarthananRavi"><img src="twitter.png" width="48px" /></a>
+            <a href="  https://plus.google.com/u/0/115410187353591249528"><img src="googleplus.png" width="48px" /></a>
+            <a href="https://github.com/govzy"><img src="github.png" width="48px" /></a>
+
+            <div>
 </body>
 
 </html>
