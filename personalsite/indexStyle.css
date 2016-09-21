@@ -1,0 +1,49 @@
+body{
+  background-color: #eae5e5;
+  margin: 0px;
+}
+.topContainer {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width:800px;
+
+}
+.bottomContainer{
+    /*background-color: #e83566;*/
+    width: 100%;
+    height: 100px;
+    display: table;
+    position: fixed;
+    bottom:0;
+    text-align: center;
+    margin: 0px;
+}
+.contactInfo{
+  display: table-cell;
+ vertical-align: middle;
+  color: blue;
+}
+.imageContainer{
+    display: block;
+    width: 800px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+#name{
+  font-family: fantasy;
+  font-size: 28px;
+}
+#pageNavigation{
+  font-size: 18px;
+  font-family: Lucida Console;
+  margin-left: 260px;
+}
+#jobTitle{
+  font-size: 18px;
+}
+#profilePic{
+  border-radius: 50%;
+}
