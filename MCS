@@ -1,0 +1,438 @@
+
+{
+    "enable": "2016-09-05T09:01:00.000Z",
+    "tags": [],
+    "appContext": {
+        "product": "Android Kiosk",
+        "descriptor": "AK",
+        "version": "1.5",
+        "env": "dev",
+        "dev": true,
+        "pow": {
+            "url": "https://sapi.staples.com/v1"
+        },
+        "promotions": {
+            "freeShippingThreshold": 49.99
+        },
+        "holdings": [
+            {
+                "descriptors": [
+                    {
+                        "value": "0002",
+                        "key": "0801"
+                    }
+                ],
+                "name": "msr"
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "49.99",
+                        "key": "freeShippingThreshold"
+                    }
+                ],
+                "name": "promotions"
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "true",
+                        "key": "enabled"
+                    }
+                ],
+                "name": "couchbase"
+            },
+            {
+                "name": "dashboardlogin",
+                "descriptors": [
+                    {
+                        "key": "passcode",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "true",
+                        "key": "enabled"
+                    }
+                ],
+                "name": "rewardslookup"
+            },
+            {
+                "descriptors": [
+                    {
+                        "particulars": [
+                            {
+                                "value": "Promotions",
+                                "key": "text_en_US"
+                            }
+                        ],
+                        "value": "in",
+                        "key": "marketing"
+                    },
+                    {
+                        "particulars": [
+                            {
+                                "value": "Orders",
+                                "key": "text_en_US"
+                            }
+                        ],
+                        "value": "in",
+                        "key": "orders"
+                    },
+                    {
+                        "particulars": [
+                            {
+                                "value": "Rewards",
+                                "key": "text_en_US"
+                            }
+                        ],
+                        "value": "in",
+                        "key": "rewards"
+                    }
+                ],
+                "name": "notifications"
+            },
+            {
+                "name": "shipping",
+                "descriptors": [
+                    {
+                        "key": "freeShippingThreshold",
+                        "particulars": [
+                            {
+                                "key": "locale_US",
+                                "value": "49.99"
+                            },
+                            {
+                                "key": "locale_CA",
+                                "value": "45.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "true",
+                        "key": "enabled"
+                    }
+                ],
+                "name": "dealCenterBanner"
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "true",
+                        "key": "enabled"
+                    }
+                ],
+                "name": "workbarFeature"
+            },
+            {
+                "name": "auditevent",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "SYNAPSE.KIOSK.DHWY.EVENT_AUDIT.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "auditorder",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "SYNAPSE.KIOSK.DHWY.ORDER_AUDIT.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "logging",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "SYNAPSE.KIOSK.DHWY.LOG.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "osmetrics",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "KIOSK.DHWY.OS.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "integrity",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "KIOSK.DHWY.INTEGRITY.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "heartbeat",
+                "descriptors": [
+                    {
+                        "key": "topic",
+                        "value": "KIOSK.DHWY.HEARTBEAT.DEV1"
+                    },
+                    {
+                        "key": "version",
+                        "value": "v1"
+                    }
+                ]
+            },
+            {
+                "name": "osmetricsinterval",
+                "descriptors": [
+                    {
+                        "key": "time",
+                        "value": "300000"
+                    },
+                    {
+                        "key": "unit",
+                        "value": "5 minutes"
+                    }
+                ]
+            },
+            {
+                "name": "integrityinterval",
+                "descriptors": [
+                    {
+                        "key": "time",
+                        "value": "3600000"
+                    },
+                    {
+                        "key": "unit",
+                        "value": "1 hour"
+                    }
+                ]
+            },
+            {
+                "name": "heartbeatinterval",
+                "descriptors": [
+                    {
+                        "key": "time",
+                        "value": "60000"
+                    },
+                    {
+                        "key": "unit",
+                        "value": "1 minute"
+                    }
+                ]
+            },
+            {
+                "name": "ecofees",
+                "descriptors": [
+                    {
+                        "key": "correct-logic",
+                        "value": "on"
+                    }
+                ]
+            },
+            {
+                "descriptors": [
+                    {
+                        "value": "on",
+                        "key": "shipping-logic"
+                    }
+                ],
+                "name": "features"
+            }
+        ],
+        "api": [
+            {
+                "name": "pow_us",
+                "url": "https://qapow.staples.com"
+            },
+            {
+                "name": "backToSchool",
+                "url": "https://api.teacherlists.com",
+                "version": "",
+                "clientIdentifier2": "3f0818d2d7eaf44559b671e2b8d1ec25",
+                "clientIdentifier": "d869f95f"
+            },
+            {
+                "name": "pow_ca",
+                "url": "https://qapow.staples.ca"
+            },
+            {
+                "name": "rewardslookup",
+                "url": "http://staplesrewardsservices-ned.staples.com",
+                "version": "",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "inkprinterlookup",
+                "url": "https://kioskmosrewardsprod-ned.staples.com",
+                "version": "",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "easyopen",
+                "url": "sapi.staples.com",
+                "version": "v1",
+                "clientIdentifier": "PgSXCSsphFjiCkuAylMIT6ekcMvNxmDf"
+            },
+            {
+                "name": "easyopen2",
+                "url": "sapi.staples.com",
+                "version": "v2",
+                "clientIdentifier": "PgSXCSsphFjiCkuAylMIT6ekcMvNxmDf"
+            },
+            {
+                "name": "channel",
+                "url": "minternal-dev.staples.com",
+                "version": "v1",
+                "clientIdentifier": "PgSXCSsphFjiCkuAylMIT6ekcMvNxmDf"
+            },
+            {
+                "name": "sso",
+                "url": "https://sso-qa.staples.com/ssorest/service/sso",
+                "version": "v1",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "datahighway",
+                "url": "http://midwaypf.staples.com",
+                "version": "v1",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "airwatch",
+                "url": "https://as135.awmdm.com",
+                "version": "v1",
+                "clientIdentifier": "7fnoveIBGBk7qftHDu3QSb9o/PI/ju+5MvwxrYFWo+Q="
+            },
+            {
+                "name": "rewardsmember",
+                "url": "http://lhadqnasv01.staples.com:8101",
+                "version": "v1",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "leanplum",
+                "url": "https://www.leanplum.com/api",
+                "version": "v1",
+                "clientIdentifier2": "dev_WORQDaY8Y8RrZI11XIo4uD4ltA6hUdqrjiskXdBdUBc",
+                "clientIdentifier": "app_mYfe1GnPgDFQayu5Yd3Nx5OG1V70q9xKJdIlcDeGWJ4"
+            },
+            {
+                "name": "suggest",
+                "url": "http://brm-staging-suggest-0.brsrvr.com/api",
+                "version": "v1",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "recommendation",
+                "url": "http://ikebanalotus.staples.com",
+                "version": "",
+                "clientIdentifier": ""
+            },
+            {
+                "name": "profileservicelookup",
+                "url": "http://ikebanalotuspf.staples.com",
+                "version": "",
+                "clientIdentifier": ""
+            }
+        ]
+    },
+    "screen": [
+        {
+            "name": "landing",
+            "pattern": "gallery",
+            "item": [
+                {
+                    "title": "Daily Deals",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/2015_5_3_android_1600x800_dailydeals.jpg",
+                    "area": [
+                        {
+                            "skuList": "BI739472"
+                        }
+                    ]
+                },
+                {
+                    "title": "Save Up to 50% on Select HP Products",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/49966_andrd_1600x800_gen.jpg",
+                    "area": [
+                        {
+                            "skuList": "BI1181023"
+                        }
+                    ]
+                },
+                {
+                    "title": "Save up to $100 on Office Chairs",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/2015_11_1_android_1600x800_chairs.jpg",
+                    "area": [
+                        {
+                            "skuList": "BI777021"
+                        }
+                    ]
+                },
+                {
+                    "title": "$114.99 after Rebate on Staples Multipurpose Copy Paper",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/2015_11_1_android_1600x800_paper.jpg",
+                    "area": [
+                        {
+                            "skuList": "BI1119328"
+                        }
+                    ]
+                },
+                {
+                    "title": "Save up to 50% on Cleaning Essentials",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/2015_11_1_android_1600x800_cleaning.jpg",
+                    "area": [
+                        {
+                            "skuList": "BI640896"
+                        }
+                    ]
+                },
+                {
+                    "title": "Clearance",
+                    "size": "B",
+                    "banner": "http://media.staples.com/iosapp/2015_11_1_android_1600x800_clearance.jpg",
+                    "area": [
+                        {
+                            "skuList": "CL211635"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sku"
+        }
+    ]
+}
